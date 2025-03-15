@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-Based Wildlife Conservation Platform</title>
+
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="ai.css">
+
+  <!-- Leaflet CSS for Map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <h1>WildLife</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#dashboard">Dashboard</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#login">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h2>Let's Save Them</h2>
+    <p>Join us to protect endangered species and their habitats.</p>
+    <button onclick="alert('Thank you for joining our mission!')">Join Campaign</button>
+  </section>
+
+  <!-- Dashboard Section with Map -->
+  <section id="dashboard" class="dashboard">
+    <h2>Real-Time Animal Tracking</h2>
+    <div id="map"></div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Ongoing Projects</h2>
+    <div class="card">
+      <h3>Protecting Tigers</h3>
+      <p>Efforts to save Bengal Tigers from extinction.</p>
+      <button>Explore</button>
+    </div>
+    <div class="card">
+      <h3>Saving Forests</h3>
+      <p>Preserving critical habitats for countless species.</p>
+      <button>Explore</button>
+    </div>
+  </section>
+
+  <!-- Login Section -->
+  <section id="login" class="login">
+    <h2>Login/Register</h2>
+    <form onsubmit="handleLogin(event)">
+      <input type="text" placeholder="Username" id="username" required>
+      <input type="password" placeholder="Password" id="password" required>
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+  <!-- Leaflet JS and Custom JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="ai.js"></script>
+</body>
+
+</html>

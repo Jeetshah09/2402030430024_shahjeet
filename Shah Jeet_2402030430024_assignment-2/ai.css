@@ -1,0 +1,128 @@
+/* Reset & Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2d6a4f;
+    padding: 1rem 2rem;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 60vh;
+    background: url('https://source.unsplash.com/featured/?wildlife') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+  }
+  
+  .hero button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background: #40916c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Dashboard Section */
+  .dashboard {
+    padding: 2rem;
+    background: #e9f5db;
+    text-align: center;
+  }
+  
+  /* Map Styling */
+  #map {
+    width: 100%;
+    max-width: 900px;
+    height: 450px;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 2rem;
+    background: #fefae0;
+    text-align: center;
+  }
+  
+  .projects .card {
+    background: white;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    display: inline-block;
+    width: 260px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projects button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background: #40916c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Login Section */
+  .login {
+    padding: 2rem;
+    background: #ccd5ae;
+    text-align: center;
+  }
+  
+  .login form {
+    display: inline-block;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  .login input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .login button {
+    padding: 10px 20px;
+    background: #588157;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
